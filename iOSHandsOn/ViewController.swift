@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var pushButton: UIButton!
     @IBOutlet weak var popButton: UIButton!
     @IBOutlet weak var modalButton: UIButton!
+
     @IBOutlet weak var dismissButton: UIBarButtonItem!
 
     
@@ -33,7 +34,7 @@ class ViewController: UIViewController {
         // UIBarButtonItem のイベント処理指定は UIButton と少し異なる
         dismissButton.target = self
         dismissButton.action = #selector(ViewController.dismissButtonTapped(_:))
-                initImageView()
+
     }
     
     // 画面が表示された直後に呼ばれる
@@ -65,28 +66,6 @@ class ViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
-    private func initImageView(){
-        // UIImage インスタンスの生成
-        let image1:UIImage = UIImage(named:"yukari.jpg")!
-        
-        // UIImageView 初期化
-        let imageView = UIImageView(image:image1)
-        
-        // 画面の横幅を取得
-        let screenWidth:CGFloat = view.frame.size.width
-        let screenHeight:CGFloat = view.frame.size.height
-        
-        // 画像の中心を画面の中心に設定
-        imageView.center = CGPoint(x:screenWidth/2, y:screenHeight/2)
-        
-        // UIImageViewのインスタンスをビューに追加
-        self.view.addSubview(imageView)
-        
-    }
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
 }
 

@@ -12,7 +12,6 @@
 		644F55D91E34851300A47026 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644F55D71E34851300A47026 /* Main.storyboard */; };
 		644F55DC1E34851300A47026 /* iOSHandsOn.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 644F55DA1E34851300A47026 /* iOSHandsOn.xcdatamodeld */; };
 		644F55DE1E34851300A47026 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644F55DD1E34851300A47026 /* Assets.xcassets */; };
-		644F55E11E34851300A47026 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644F55DF1E34851300A47026 /* LaunchScreen.storyboard */; };
 		644F55EC1E34851300A47026 /* iOSHandsOnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F55EB1E34851300A47026 /* iOSHandsOnTests.swift */; };
 		644F55F71E34851300A47026 /* iOSHandsOnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F55F61E34851300A47026 /* iOSHandsOnUITests.swift */; };
 /* End PBXBuildFile section */
@@ -41,7 +40,6 @@
 		644F55D81E34851300A47026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		644F55DB1E34851300A47026 /* iOSHandsOn.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSHandsOn.xcdatamodel; sourceTree = "<group>"; };
 		644F55DD1E34851300A47026 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		644F55E01E34851300A47026 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		644F55E21E34851300A47026 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		644F55E71E34851300A47026 /* iOSHandsOnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSHandsOnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		644F55EB1E34851300A47026 /* iOSHandsOnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSHandsOnTests.swift; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 				644F55D51E34851300A47026 /* ViewController.swift */,
 				644F55D71E34851300A47026 /* Main.storyboard */,
 				644F55DD1E34851300A47026 /* Assets.xcassets */,
-				644F55DF1E34851300A47026 /* LaunchScreen.storyboard */,
 				644F55E21E34851300A47026 /* Info.plist */,
 				644F55DA1E34851300A47026 /* iOSHandsOn.xcdatamodeld */,
 			);
@@ -236,7 +233,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				644F55E11E34851300A47026 /* LaunchScreen.storyboard in Resources */,
 				644F55DE1E34851300A47026 /* Assets.xcassets in Resources */,
 				644F55D91E34851300A47026 /* Main.storyboard in Resources */,
 			);
@@ -307,14 +303,6 @@
 				644F55D81E34851300A47026 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		644F55DF1E34851300A47026 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				644F55E01E34851300A47026 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -512,6 +500,7 @@
 				644F55FD1E34851300A47026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		644F55FE1E34851300A47026 /* Build configuration list for PBXNativeTarget "iOSHandsOnTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +509,7 @@
 				644F56001E34851300A47026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		644F56011E34851300A47026 /* Build configuration list for PBXNativeTarget "iOSHandsOnUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +518,7 @@
 				644F56031E34851300A47026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
