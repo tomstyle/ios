@@ -51,12 +51,12 @@
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="12O-te-n38">
                                 <rect key="frame" x="276" y="7" width="83" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="X"/>
+                                <state key="normal" title="閉じる"/>
                             </button>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="dismissButton" destination="GAE-ym-4ig" id="Nl4-x3-HSc"/>
+                        <outlet property="dismissButton" destination="GAE-ym-4ig" id="6sk-Uh-H4O"/>
                         <outlet property="label" destination="pAE-FD-N5o" id="0ZV-04-AsU"/>
                         <outlet property="modalButton" destination="8cu-hk-smE" id="QSH-OI-Pvs"/>
                         <outlet property="popButton" destination="wxh-JK-Swa" id="wcK-4o-2La"/>

@@ -14,10 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var pushButton: UIButton!
     @IBOutlet weak var popButton: UIButton!
     @IBOutlet weak var modalButton: UIButton!
-
     @IBOutlet weak var dismissButton: UIBarButtonItem!
-
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         pushButton.addTarget(self, action: #selector(ViewController.pushButtonTapped(_:)), for: .touchUpInside)
@@ -34,7 +31,6 @@ class ViewController: UIViewController {
         // UIBarButtonItem のイベント処理指定は UIButton と少し異なる
         dismissButton.target = self
         dismissButton.action = #selector(ViewController.dismissButtonTapped(_:))
-
     }
     
     // 画面が表示された直後に呼ばれる
@@ -63,9 +59,7 @@ class ViewController: UIViewController {
     }
     
     func dismissButtonTapped(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+        self.dismiss(animated: true, completion: nil)
     }
     
-    
 }
-
